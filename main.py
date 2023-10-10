@@ -67,7 +67,7 @@ if uploaded_file is not None:
             self.container.markdown(self.text)
 
     #Question
-    st.header("PDF에게 질문해보세요!!")
+    st.header("매직에꼴에 질문해보세요!!")
     question = st.text_input('질문을 입력하세요')
 
     if st.button('질문하기'):
